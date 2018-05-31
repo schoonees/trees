@@ -6,9 +6,10 @@ This is a simple Shiny app for illustrating function approximation using decisio
 install.packages(c("shiny", "plotly", "mvtnorm"))
 ```
 
-After loading these, you can run the app from the R console using:
+After installing these, you can run the app from the R console using:
 
 ```
+library("plotly")
 library("shiny")  
 runGitHub("schoonees/trees")  
 ```
